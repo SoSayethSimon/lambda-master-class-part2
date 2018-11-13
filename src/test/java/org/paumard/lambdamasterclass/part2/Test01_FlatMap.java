@@ -65,6 +65,6 @@ public class Test01_FlatMap {
         List<String> words = null; // TODO
 
         assertThat(words.size()).isEqualTo(106);
-        assertThat(words).contains("From", "fairest", "creatures", "we", "desire", "increase");
+        assertThat(words).contains("From", "fairest", "creatures", "we", "desire", "increase,");
     }
 }
